@@ -4,7 +4,37 @@
     {
         static void Main(string[] args)
         {
-            ExemploComInterfaceEClasseAbstrata();
+            ExemploDeComparacaoDeObjetos();
+
+        }
+
+        private static void ExemploDeComparacaoDeObjetos()
+        {
+            Console.Clear();
+            var pessoa1 = new PessoaCompara(1, "Thiago");
+            var pessoa2 = new PessoaCompara(1, "Thiago");
+
+            var comparacao = (pessoa1 == pessoa2);
+            Console.WriteLine($"As pessoas são iguais (endereço memoria)? R: {comparacao}");
+
+            var comparacaoComEquals = (pessoa1.Equals(pessoa2));
+            Console.WriteLine($"As pessoas são iguais (equals)? R: {comparacaoComEquals}");
+        }
+
+        private static void ExemploUpcastEDowncast()
+        {
+            Console.Clear();
+            var pessoa1 = new Pessoa();
+            var pessoa2 = new Pessoa();
+            var pessoaFisica = new PessoaFisica();
+            var pessoaJuridica = new PessoaJuridica();
+
+            //Upcast
+            pessoa1 = pessoaFisica;
+
+            //Downcast - faz de/para dos objetos e algumas propriedades podem ser perdidas.
+            pessoaJuridica = (pessoa2 as PessoaJuridica) ?? new PessoaJuridica();
+
         }
 
         private static void ExemploComInterfaceEClasseAbstrata()
