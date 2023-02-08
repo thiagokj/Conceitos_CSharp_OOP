@@ -1,0 +1,15 @@
+C:\DEV\CSharp\Payments_CSharp_OOP\bin\Debug\net7.0\Payments_CSharp_OOP.exe
+C:\DEV\CSharp\Payments_CSharp_OOP\bin\Debug\net7.0\Payments_CSharp_OOP.deps.json
+C:\DEV\CSharp\Payments_CSharp_OOP\bin\Debug\net7.0\Payments_CSharp_OOP.runtimeconfig.json
+C:\DEV\CSharp\Payments_CSharp_OOP\bin\Debug\net7.0\Payments_CSharp_OOP.dll
+C:\DEV\CSharp\Payments_CSharp_OOP\bin\Debug\net7.0\Payments_CSharp_OOP.pdb
+C:\DEV\CSharp\Payments_CSharp_OOP\obj\Debug\net7.0\Payments_CSharp_OOP.csproj.AssemblyReference.cache
+C:\DEV\CSharp\Payments_CSharp_OOP\obj\Debug\net7.0\Payments_CSharp_OOP.GeneratedMSBuildEditorConfig.editorconfig
+C:\DEV\CSharp\Payments_CSharp_OOP\obj\Debug\net7.0\Payments_CSharp_OOP.AssemblyInfoInputs.cache
+C:\DEV\CSharp\Payments_CSharp_OOP\obj\Debug\net7.0\Payments_CSharp_OOP.AssemblyInfo.cs
+C:\DEV\CSharp\Payments_CSharp_OOP\obj\Debug\net7.0\Payments_CSharp_OOP.csproj.CoreCompileInputs.cache
+C:\DEV\CSharp\Payments_CSharp_OOP\obj\Debug\net7.0\Payments_CSharp_OOP.dll
+C:\DEV\CSharp\Payments_CSharp_OOP\obj\Debug\net7.0\refint\Payments_CSharp_OOP.dll
+C:\DEV\CSharp\Payments_CSharp_OOP\obj\Debug\net7.0\Payments_CSharp_OOP.pdb
+C:\DEV\CSharp\Payments_CSharp_OOP\obj\Debug\net7.0\Payments_CSharp_OOP.genruntimeconfig.cache
+C:\DEV\CSharp\Payments_CSharp_OOP\obj\Debug\net7.0\ref\Payments_CSharp_OOP.dll
