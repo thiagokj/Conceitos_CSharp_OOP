@@ -4,6 +4,24 @@
     {
         static void Main(string[] args)
         {
+            ExemploComUsingEDispose();
+
+        }
+
+        private static void ExemploComUsingEDispose()
+        {
+            Console.Clear();
+
+            // a instrução using garante o descarte ao término da execução,
+            // independente de exceções.
+            using (var pagamentoComDispose = new PagamentoComDispose())
+            {
+                Console.WriteLine("Processando pagamento...");
+            }
+        }
+
+        private static void ExecutaExemplos()
+        {
             Console.Clear();
             var pagamento = new Pagamento(DateTime.Now);
             var endereco = new Endereco();

@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\DEV\\CSharp\\Payments_CSharp_OOP\\Payments_CSharp_OOP.csproj",
-      "projectName": "Payments_CSharp_OOP",
-      "projectPath": "C:\\DEV\\CSharp\\Payments_CSharp_OOP\\Payments_CSharp_OOP.csproj",
+      "projectUniqueName": "C:\\DEV\\CSharp\\Conceitos_CSharp_OOP\\Conceitos_CSharp_OOP.csproj",
+      "projectName": "Conceitos_CSharp_OOP",
+      "projectPath": "C:\\DEV\\CSharp\\Conceitos_CSharp_OOP\\Conceitos_CSharp_OOP.csproj",
       "packagesPath": "C:\\Users\\Thi\\.nuget\\packages\\",
-      "outputPath": "C:\\DEV\\CSharp\\Payments_CSharp_OOP\\obj\\",
+      "outputPath": "C:\\DEV\\CSharp\\Conceitos_CSharp_OOP\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
