@@ -4,8 +4,14 @@
     {
         static void Main(string[] args)
         {
-            ExemploComUsingEDispose();
+            ExemploComInterfaceEClasseAbstrata();
+        }
 
+        private static void ExemploComInterfaceEClasseAbstrata()
+        {
+            var pagamento = new PagamentoComPix();
+            pagamento.Vencimento = DateTime.Now;
+            pagamento.Pagar(25.90);
         }
 
         private static void ExemploComUsingEDispose()

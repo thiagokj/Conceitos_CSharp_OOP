@@ -1,0 +1,23 @@
+// Classes estáticas não podem ser instanciadas, 
+// ou seja, criar objetos dessa classe.
+// Esse tipo de classe ja fica disponivel em memória,
+// contendo sempre a mesma informação.
+
+public static class Pagamento
+{
+    // Esse exemplo não faz sentido, pois não podemos
+    // criar um objeto para cada pagamento, será sempre o mesmo.
+    // Aqui temos apenas 1 pagamento para o sistema todo e não podemos ter outras versões.
+    public static DateTime Vencimento { get; set; }
+}
+
+// Esse tipo de classe faz mais sentido para um contexto geral
+// onde haverá apenas um tipo de utilização,
+// sem a necessidade de modificações.
+// Um bom exemplo é uma classe com configurações, que não são alteradas
+// durante a execução da aplicação.
+public static class Configuracoes
+{
+    public static string API_URL { get; set; }
+}
+
