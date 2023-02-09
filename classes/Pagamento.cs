@@ -18,9 +18,11 @@ namespace Payments
         private int _contador = 0;
 
         // Propriedades | Possuem métodos acessores, atribuindo ou recebendo valores.
-        // Criação com atalho props. 
+        // Criação com atalho prop. 
         // Essa é a forma otimizada e mais simples para usar os métodos acessores.
         public DateTime Vencimento { get; set; }
+
+        public int Id { get; set; }
 
         // Criação com atalho propfull. 
         // Forma mais antiga para usar os métodos acessores.
@@ -59,6 +61,11 @@ namespace Payments
         }
 
         // exemplo preenchendo variáveis
+        public Pagamento(int id)
+        {
+            Console.WriteLine($"Gerado pagamento com o id {id}.");
+            Id = id;
+        }
         public Pagamento(DateTime vencimento)
         {
             Console.WriteLine("Iniciando pagamento com a data de vencimento");
@@ -67,6 +74,7 @@ namespace Payments
 
         // Sobrecarga | mesmo nome, com assinaturas diferentes.
         public void Pagar(int id) { }
+
         public void Pagar(int id, string pagador) { }
 
         // Sobrescrita | a palavra reservada virtual permite
