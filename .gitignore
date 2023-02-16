@@ -1,0 +1,15 @@
+# Arquivos de configuração
+*.config
+
+# Arquivos de chave
+*.pfx
+
+# Arquivos de licença
+LICENSE
+
+# Arquivos de autenticação
+*.publishsettings
+
+# Arquivos gerados pelo Visual Studio
+bin/
+obj/
