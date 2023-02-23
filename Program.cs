@@ -1,8 +1,15 @@
-﻿namespace Payments
+﻿using Conceitos_CSharp_OOP.Handlers;
+
+namespace Payments
 {
     class Program
     {
         static void Main(string[] args)
+        {
+            //ExceptionsHandler.ManipulandoExcecoes();
+        }
+
+        private static void ExemploDeConversaoDeListas()
         {
             Console.Clear();
 
@@ -23,7 +30,6 @@
             var arrayPagamentos = listaDePagamentos.ToArray();
             Console.WriteLine($"Lista convertida em array. Exibindo o Id na posição 0: {arrayPagamentos[0].Id}");
         }
-
         private static void ExemplosComListas()
         {
             Console.Clear();

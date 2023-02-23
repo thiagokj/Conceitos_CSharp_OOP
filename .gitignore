@@ -13,3 +13,4 @@ LICENSE
 # Arquivos gerados pelo Visual Studio
 bin/
 obj/
+.vscode/
